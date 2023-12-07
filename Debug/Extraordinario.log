@@ -2,16 +2,26 @@
 C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\include\shader_m.h(44,40): warning C4101: 'e': unreferenced local variable
 C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\include\modelAnim.h(104,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\include\modelAnim.h(520,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(452,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(453,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(457,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(458,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(460,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(461,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(469,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(402,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(403,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(407,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(408,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(410,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(411,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(418,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+glfw3.lib(context.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(context.obj)' or at ''; linking object as if no debug info
+glfw3.lib(init.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(init.obj)' or at ''; linking object as if no debug info
 glfw3.lib(input.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(input.obj)' or at ''; linking object as if no debug info
 glfw3.lib(monitor.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(monitor.obj)' or at ''; linking object as if no debug info
+glfw3.lib(vulkan.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(vulkan.obj)' or at ''; linking object as if no debug info
 glfw3.lib(window.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(window.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_init.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_init.obj)' or at ''; linking object as if no debug info
 glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_joystick.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_monitor.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_time.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_time.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_thread.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_thread.obj)' or at ''; linking object as if no debug info
 glfw3.lib(win32_window.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_window.obj)' or at ''; linking object as if no debug info
+glfw3.lib(wgl_context.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(wgl_context.obj)' or at ''; linking object as if no debug info
+glfw3.lib(egl_context.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(egl_context.obj)' or at ''; linking object as if no debug info
+glfw3.lib(osmesa_context.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(osmesa_context.obj)' or at ''; linking object as if no debug info
   Extraordinario.vcxproj -> C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Debug\Extraordinario.exe
