@@ -1,9 +1,4 @@
-﻿/*---------------------------------------------------------*/
-/* ----------------  Práctica Animación 3       -----------*/
-/*-----------------    2024-1   ---------------------------*/
-/*------------- Alumno: Daniel Pérez Cruz   ---------------*/
-/*------------- No. Cuenta: 315609343       ---------------*/
-#include <Windows.h>
+﻿#include <Windows.h>
 
 #include <glad/glad.h>
 #include <glfw3.h>	//main
@@ -280,6 +275,7 @@ int main()
 	Model TorG("resources/objects/Hanoy/TorG.obj");
 	Model TorM("resources/objects/Hanoy/TorM.obj");
 	Model TorP("resources/objects/Hanoy/TorP.obj");
+	Model Nombre("resources/objects/Hanoy/Nombre.obj");
 
 	// render loop
 	// -----------
@@ -318,17 +314,6 @@ int main()
 		staticShader.setFloat("pointLight[0].linear", 0.00009f);
 		staticShader.setFloat("pointLight[0].quadratic", 0.00032f);
 
-		staticShader.setVec3("spotLight[0].position", glm::vec3(camera.Position.x, camera.Position.y, camera.Position.z));
-		staticShader.setVec3("spotLight[0].direction", glm::vec3(camera.Front.x, camera.Front.y, camera.Front.z));
-		staticShader.setVec3("spotLight[0].ambient", glm::vec3(0.0f, 0.0f, 0.0f));
-		staticShader.setVec3("spotLight[0].diffuse", glm::vec3(0.0f, 0.0f, 0.0f));
-		staticShader.setVec3("spotLight[0].specular", glm::vec3(0.0f, 0.0f, 0.0f));
-		staticShader.setFloat("spotLight[0].cutOff", glm::cos(glm::radians(10.0f)));
-		staticShader.setFloat("spotLight[0].outerCutOff", glm::cos(glm::radians(15.0f)));
-		staticShader.setFloat("spotLight[0].constant", 1.0f);
-		staticShader.setFloat("spotLight[0].linear", 0.00009f);
-		staticShader.setFloat("spotLight[0].quadratic", 0.00005f);
-
 		staticShader.setFloat("material_shininess", 16.0f);
 
 		glm::mat4 model = glm::mat4(1.0f);
@@ -348,7 +333,7 @@ int main()
 
 		model = glm::mat4(1.0f);
 		model = glm::translate(model, glm::vec3(30.0f, 0.0f, 30.0f));
-		model = glm::rotate(model, glm::radians(90.0f), glm::vec3(.0f, 1.0f, 0.0f));
+		model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, 1.0f, 0.0f));
 		staticShader.setMat4("model", model);
 		Plano.Draw(staticShader);
 
@@ -381,6 +366,13 @@ int main()
 		model = glm::translate(model, glm::vec3(30.0f, 0.0f, 45.0f));
 		staticShader.setMat4("model", model);
 		Base.Draw(staticShader);
+
+		model = glm::mat4(1.0f);
+		model = glm::translate(model, glm::vec3(30.0f, 10.0f, 75.0f));
+		model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, 0.0f, 1.0f));
+		model = glm::rotate(model, glm::radians(-90.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+		staticShader.setMat4("model", model);
+		Nombre.Draw(staticShader);
 
 		// -------------------------------------------------------------------------------------------------------------------------
 		// Termina Escenario
