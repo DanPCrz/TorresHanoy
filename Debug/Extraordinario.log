@@ -1,0 +1,12 @@
+﻿  Final.cpp
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\include\shader_m.h(44,40): warning C4101: 'e': unreferenced local variable
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\include\modelAnim.h(104,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\include\modelAnim.h(520,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(460,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(461,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(465,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(466,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(468,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(469,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Final.cpp(477,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Extraordinario.vcxproj -> C:\Users\danye\Documents\Escuela\CGeIHC\Extraordinario\Debug\Extraordinario.exe
